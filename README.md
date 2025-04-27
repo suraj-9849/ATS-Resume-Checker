@@ -7,7 +7,6 @@ An AI-powered tool to analyze and optimize your resume for Applicant Tracking Sy
 ## ✨ Features
 
 ### Resume Analysis
-
 - **AI-Powered Analysis**: Get intelligent insights beyond basic keyword matching
 - **Multiple Analysis Options**: Choose from Quick Scan, Detailed Analysis, ATS Optimization, or Formatting Check
 - **Keyword Matching**: See which keywords from job descriptions match your resume
@@ -16,7 +15,6 @@ An AI-powered tool to analyze and optimize your resume for Applicant Tracking Sy
 - **Version Tracking**: Save multiple versions to measure improvements over time
 
 ### GitHub Profile Analysis
-
 - **Repository Assessment**: Analyze your GitHub profile to complement your resume
 - **Skills Gap Identification**: See if your GitHub projects showcase skills missing from your resume
 - **Technical Validation**: Demonstrate coding abilities with actual GitHub projects
@@ -24,7 +22,6 @@ An AI-powered tool to analyze and optimize your resume for Applicant Tracking Sy
 - **AI-Powered Insights**: Get recommendations on how to improve your GitHub profile
 
 ### Industry Insights
-
 - **Industry-Specific Skills**: View top skills required for various industries
 - **Resume Optimization Tips**: Get tailored advice for your specific industry
 - **ATS Best Practices**: Learn how to format your resume for optimal ATS performance
@@ -32,22 +29,18 @@ An AI-powered tool to analyze and optimize your resume for Applicant Tracking Sy
 ## 🛠️ Installation
 
 1. Clone the repository:
-
    ```
-   git clone https://github.com/yourusername/ATS-Resume-Checker.git
-   cd ATS-Resume-Checker
-
+   git clone https://github.com/yourusername/advanced-ats-resume-checker.git
+   cd advanced-ats-resume-checker
    ```
 
 2. Create and activate a virtual environment (optional but recommended):
-
    ```
    python -m venv venv
    source venv/bin/activate  # On Windows, use: venv\Scripts\activate
    ```
 
 3. Install the required dependencies:
-
    ```
    pip install -r requirements.txt
    ```
@@ -60,7 +53,6 @@ An AI-powered tool to analyze and optimize your resume for Applicant Tracking Sy
 ## 🚀 Usage
 
 1. Start the Streamlit application:
-
    ```
    streamlit run app.py
    ```
@@ -75,7 +67,6 @@ An AI-powered tool to analyze and optimize your resume for Applicant Tracking Sy
 ## 📋 How to Use
 
 ### Resume Analysis
-
 1. Upload your resume in PDF format
 2. Paste the job description you're applying for
 3. Choose your preferred analysis type:
@@ -86,14 +77,12 @@ An AI-powered tool to analyze and optimize your resume for Applicant Tracking Sy
 4. Review the results and make improvements to your resume
 
 ### GitHub Profile Analyzer
-
 1. Enter your GitHub username
 2. Optionally, use an existing resume from the Resume Analysis tab
 3. Review insights about your repositories, languages, and activity
 4. Use the AI analysis to understand how your GitHub profile complements your resume
 
 ### Industry Insights
-
 1. Select your industry from the dropdown menu
 2. Review the top skills for your chosen industry
 3. Read industry-specific resume tips and ATS optimization advice
@@ -101,7 +90,6 @@ An AI-powered tool to analyze and optimize your resume for Applicant Tracking Sy
 ## 📊 Features in Detail
 
 ### Resume Analysis
-
 - **Keyword Matching**: Identifies which keywords from the job description appear in your resume
 - **Resume Heatmap**: Visualizes which sections of your resume match job description keywords
 - **Word Cloud**: Shows the most prominent keywords in your resume
@@ -109,7 +97,6 @@ An AI-powered tool to analyze and optimize your resume for Applicant Tracking Sy
 - **Industry Detection**: Automatically identifies your target industry and provides relevant advice
 
 ### GitHub Analysis
-
 - **Repository Overview**: Displays your top repositories with stars, forks, and languages
 - **Language Distribution**: Visualizes the programming languages you use most frequently
 - **Activity Chart**: Shows your GitHub activity patterns
@@ -124,7 +111,6 @@ An AI-powered tool to analyze and optimize your resume for Applicant Tracking Sy
 - Pandas
 - Plotly
 - Matplotlib
-- WordCount
 - PyMuPDF (for PDF reading)
 
 ## 🤝 Contributing

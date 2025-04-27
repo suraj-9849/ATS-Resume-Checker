@@ -1,6 +1,4 @@
 from PyPDF2 import PdfReader
-import os
-
 def read_pdf(uploaded_file):
     if uploaded_file is not None:
         pdf_reader = PdfReader(uploaded_file)

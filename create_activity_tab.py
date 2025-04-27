@@ -1,9 +1,10 @@
 
 from datetime import datetime
 import pandas as pd
-import os
 import matplotlib.pyplot as plt
-
+import os
+import pandas as pd
+import matplotlib.pyplot as plt
 def create_activity_chart(github_info):
     """Create chart of repository activity over time"""
     if "error" in github_info or not github_info.get("repos"):

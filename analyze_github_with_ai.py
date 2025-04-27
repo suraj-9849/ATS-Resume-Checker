@@ -1,8 +1,9 @@
 import os
 from dotenv import load_dotenv
 import google.generativeai as genai
-
-
+import os
+from dotenv import load_dotenv
+import google.generativeai as genai
 def analyze_github_with_ai(github_info, resume_text=None, job_description=None):
 
     load_dotenv()

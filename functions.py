@@ -4,11 +4,10 @@ from dotenv import load_dotenv
 import google.generativeai as genai
 import pandas as pd
 import nltk
-from nltk.tokenize import word_tokenize
-from nltk.corpus import stopwords
 import re
 import matplotlib.pyplot as plt
-
+from nltk.tokenize import word_tokenize
+from nltk.corpus import stopwords
 # Download NLTK resources
 try:
     nltk.data.find("tokenizers/punkt")
@@ -16,7 +15,6 @@ try:
 except LookupError:
     nltk.download("punkt")
     nltk.download("stopwords")
-
 # Load environment variables
 load_dotenv()
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))

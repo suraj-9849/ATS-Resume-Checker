@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
-import os
+import matplotlib.pyplot as plt
 
 def create_word_cloud(text):
     """Create a word cloud from text"""

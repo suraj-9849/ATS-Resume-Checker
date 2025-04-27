@@ -1,7 +1,6 @@
 import requests
 import streamlit as st
 import os
-
 def fetch_github_profile(username):
     """Fetch GitHub profile information for the given username"""
     # Check if profile is cached

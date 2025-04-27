@@ -1,6 +1,5 @@
 
 import re
-import os
 def detect_industry(resume_text):
     """Detect the likely industry of the resume"""
     industry_keywords = {

@@ -16,15 +16,15 @@ from functions import (
     get_industry_advice,
 )
 from get_gemini_output import get_gemini_output
-import nltk
-from nltk.tokenize import word_tokenize
-from nltk.corpus import stopwords
 import re
 import plotly.express as px
 import uuid
 import matplotlib.pyplot as plt
 from read_pdf import read_pdf
 
+import nltk
+from nltk.tokenize import word_tokenize
+from nltk.corpus import stopwords
 # Download NLTK resources
 try:
     nltk.data.find("tokenizers/punkt")

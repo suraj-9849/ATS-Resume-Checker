@@ -6,15 +6,10 @@ import pandas as pd
 import nltk
 import re
 import matplotlib.pyplot as plt
-from nltk.tokenize import word_tokenize
+from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.corpus import stopwords
-# Download NLTK resources
-try:
-    nltk.data.find("tokenizers/punkt")
-    nltk.data.find("corpora/stopwords")
-except LookupError:
-    nltk.download("punkt")
-    nltk.download("stopwords")
+nltk.download('punkt')  # This will download the required tokenizer models
+
 # Load environment variables
 load_dotenv()
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))

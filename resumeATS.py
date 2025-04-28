@@ -20,20 +20,7 @@ import re
 import plotly.express as px
 import uuid
 import matplotlib.pyplot as plt
-from read_pdf import read_pdf
-
-import nltk
-from nltk.tokenize import word_tokenize
-from nltk.corpus import stopwords
-# Download NLTK resources
-try:
-    nltk.data.find("tokenizers/punkt")
-    nltk.data.find("corpora/stopwords")
-except LookupError:
-    nltk.download("punkt")
-    nltk.download("stopwords")
-
-# Load environment variables
+from read_pdf import read_pdf 
 load_dotenv()
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 model = genai.GenerativeModel("gemini-1.5-flash")

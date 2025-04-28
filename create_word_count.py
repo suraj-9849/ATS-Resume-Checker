@@ -1,7 +1,10 @@
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
-
+import nltk
+from nltk.tokenize import word_tokenize
+from nltk.corpus import stopwords
+nltk.download('punkt_tab') 
 def create_word_cloud(text):
     """Create a word cloud from text"""
     wordcloud = WordCloud(

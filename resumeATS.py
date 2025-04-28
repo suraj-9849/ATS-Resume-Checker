@@ -109,7 +109,7 @@ st.markdown(
         border-radius: 10px;
         padding: 15px;
         margin: 10px 0;
-        background-color: #f9f9f9;
+        # background-color: #f9f9f9;
     }
     .github-stats {
         display: flex;
@@ -121,7 +121,7 @@ st.markdown(
         margin: 10px;
         padding: 15px;
         border-radius: 10px;
-        background-color: #f0f0f0;
+        # background-color: #f0f0f0;
         min-width: 120px;
     }
     </style>
